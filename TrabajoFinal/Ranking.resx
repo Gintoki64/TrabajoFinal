@@ -57,9 +57,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -73,7 +70,7 @@
         y6nay6razKrazKvazKzazazbza3bzq3bzq7bzq7czq/cz6/cz7Dcz7Ddz7Hd0LHd0LLd0bLd0bPe0bTe
         0rTe0rXe0rXf0rbf07bf07ff07fg1Lfg1Ljg1Lng1bng1bnh1brh1bvh1rvh1rzi173i177i177j2L7j
         2L/j2MDj2cDj2cDk2cHk2sLk2sLl2sPl28Pl28Tl28Xm3MXm3Mbm3Mfm3cfm3cfn3cjn3sjn3snn3sno
-        3sro2HhLhgAAAAlwSFlzAAALDAAACwwBP0AiyAAAPG9JREFUeF7t1AnDdV1dkPFGG2kuKJqL10YLTawE
+        3sro2HhLhgAAAAlwSFlzAAALEQAACxEBf2RfkQAAPG9JREFUeF7t1AnDdV1dkPFGG2kuKJqL10YLTawE
         QxssDG3AsIiKysRoxEQ0CpveotIsCmzA7LXJCirD79d/7XPttdc69/9Z93Ofs89z73329fsQv59wUz8x
         85N6P/nMT3kJP/WFvuRLvuSnPfDTT37GC/zM8LOKn714U+Ln/NyTn7f4+a1fEH7h4hcVvxi/BG/uveUt
         v/SXtd7a+OW/IvzKxa86+dWTX3Pyaye/Lvz62duq11770i/9DYvfiN9U/ObFbwm/FV/2ZV/22/DbG2+f

@@ -28,13 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.titulo = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.NombreInput = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.botonLogin = new System.Windows.Forms.Button();
+            this.botonSalir = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.titulo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // titulo
@@ -48,13 +53,13 @@
             this.titulo.TabIndex = 0;
             this.titulo.TabStop = false;
             // 
-            // textBox1
+            // NombreInput
             // 
-            this.textBox1.Location = new System.Drawing.Point(309, 408);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(581, 27);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.NombreInput.Location = new System.Drawing.Point(309, 408);
+            this.NombreInput.Name = "NombreInput";
+            this.NombreInput.Size = new System.Drawing.Size(581, 27);
+            this.NombreInput.TabIndex = 1;
+            this.NombreInput.TextChanged += new System.EventHandler(this.NombreInput_TextChanged);
             // 
             // textBox2
             // 
@@ -87,7 +92,38 @@
             this.label2.Size = new System.Drawing.Size(157, 28);
             this.label2.TabIndex = 4;
             this.label2.Text = "PASSWORD:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // botonLogin
+            // 
+            this.botonLogin.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.botonLogin.BackColor = System.Drawing.SystemColors.Highlight;
+            this.botonLogin.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.botonLogin.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.botonLogin.Location = new System.Drawing.Point(530, 668);
+            this.botonLogin.Name = "botonLogin";
+            this.botonLogin.Size = new System.Drawing.Size(145, 75);
+            this.botonLogin.TabIndex = 5;
+            this.botonLogin.Text = "ENTRAR";
+            this.botonLogin.UseVisualStyleBackColor = false;
+            this.botonLogin.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // botonSalir
+            // 
+            this.botonSalir.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.botonSalir.BackColor = System.Drawing.SystemColors.Highlight;
+            this.botonSalir.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.botonSalir.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.botonSalir.Location = new System.Drawing.Point(1101, 827);
+            this.botonSalir.Name = "botonSalir";
+            this.botonSalir.Size = new System.Drawing.Size(111, 55);
+            this.botonSalir.TabIndex = 6;
+            this.botonSalir.Text = "SALIR";
+            this.botonSalir.UseVisualStyleBackColor = false;
+            this.botonSalir.Click += new System.EventHandler(this.botonSalir_Click);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // Login
             // 
@@ -95,10 +131,12 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1262, 933);
+            this.Controls.Add(this.botonSalir);
+            this.Controls.Add(this.botonLogin);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.NombreInput);
             this.Controls.Add(this.titulo);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -108,7 +146,9 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginBBDD";
+            this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.titulo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,10 +157,12 @@
         #endregion
 
         private PictureBox titulo;
-        private TextBox textBox1;
+        private TextBox NombreInput;
         private TextBox textBox2;
         private Label label1;
         private Label label2;
-
+        private Button botonLogin;
+        private Button botonSalir;
+        private ErrorProvider errorProvider1;
     }
 }

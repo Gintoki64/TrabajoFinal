@@ -81,12 +81,32 @@ namespace TrabajoFinal.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_button_rectangle_computer_icons_5b3bd5fe626649_8270372415306480624031 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-button-rectangle-computer-icons-5b3bd5fe626649.8270372415306480624031", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
         /// </summary>
         internal static System.Drawing.Icon Mattahan_Umicons_Folder_Games_Folder {
             get {
                 object obj = ResourceManager.GetObject("Mattahan-Umicons-Folder-Games-Folder", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngwing_com {
+            get {
+                object obj = ResourceManager.GetObject("pngwing.com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
