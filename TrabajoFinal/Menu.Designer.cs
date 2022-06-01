@@ -41,7 +41,7 @@
             this.botonInsertar.BackColor = System.Drawing.Color.LightSkyBlue;
             this.botonInsertar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.botonInsertar.Font = new System.Drawing.Font("Sitka Display", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.botonInsertar.Location = new System.Drawing.Point(114, 44);
+            this.botonInsertar.Location = new System.Drawing.Point(114, 43);
             this.botonInsertar.Name = "botonInsertar";
             this.botonInsertar.Size = new System.Drawing.Size(984, 155);
             this.botonInsertar.TabIndex = 0;
@@ -86,6 +86,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "RANKING DE MEJORES JUEGOS";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // botonSalir
             // 
@@ -99,6 +100,7 @@
             this.botonSalir.TabIndex = 7;
             this.botonSalir.Text = "SALIR";
             this.botonSalir.UseVisualStyleBackColor = false;
+            this.botonSalir.Click += new System.EventHandler(this.botonSalir_Click);
             // 
             // index
             // 

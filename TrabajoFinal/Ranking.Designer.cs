@@ -31,36 +31,37 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ranking));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.primerPuesto = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.nota1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.Puesto1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.nota2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.segundoPuesto = new System.Windows.Forms.Label();
+            this.Puesto2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.nota3 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.tercerPuesto = new System.Windows.Forms.Label();
+            this.Puesto3 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.nota4 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.cuartoPuesto = new System.Windows.Forms.Label();
+            this.Puesto4 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.nota5 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.quintoPuesto = new System.Windows.Forms.Label();
+            this.Puesto5 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.botonSalir = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -85,44 +86,22 @@
             this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel1.Controls.Add(this.nota1);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.primerPuesto);
+            this.panel1.Controls.Add(this.Puesto1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(167, 305);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(997, 80);
             this.panel1.TabIndex = 1;
             // 
-            // label1
+            // nota1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(59, 316);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 50);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "1º";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(33, 28);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 28);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Titulo:";
-            // 
-            // primerPuesto
-            // 
-            this.primerPuesto.AutoSize = true;
-            this.primerPuesto.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.primerPuesto.Location = new System.Drawing.Point(112, 28);
-            this.primerPuesto.Name = "primerPuesto";
-            this.primerPuesto.Size = new System.Drawing.Size(73, 28);
-            this.primerPuesto.TabIndex = 1;
-            this.primerPuesto.Text = "Prueba";
+            this.nota1.AutoSize = true;
+            this.nota1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nota1.Location = new System.Drawing.Point(885, 28);
+            this.nota1.Name = "nota1";
+            this.nota1.Size = new System.Drawing.Size(73, 28);
+            this.nota1.TabIndex = 3;
+            this.nota1.Text = "Prueba";
             // 
             // label4
             // 
@@ -135,15 +114,37 @@
             this.label4.Text = "Nota:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // nota1
+            // Puesto1
             // 
-            this.nota1.AutoSize = true;
-            this.nota1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nota1.Location = new System.Drawing.Point(885, 28);
-            this.nota1.Name = "nota1";
-            this.nota1.Size = new System.Drawing.Size(73, 28);
-            this.nota1.TabIndex = 3;
-            this.nota1.Text = "Prueba";
+            this.Puesto1.AutoSize = true;
+            this.Puesto1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Puesto1.Location = new System.Drawing.Point(112, 28);
+            this.Puesto1.Name = "Puesto1";
+            this.Puesto1.Size = new System.Drawing.Size(73, 28);
+            this.Puesto1.TabIndex = 1;
+            this.Puesto1.Text = "Prueba";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(33, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(73, 28);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Titulo:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(59, 316);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 50);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "1º";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -161,7 +162,7 @@
             this.panel2.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel2.Controls.Add(this.nota2);
             this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.segundoPuesto);
+            this.panel2.Controls.Add(this.Puesto2);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Location = new System.Drawing.Point(167, 413);
             this.panel2.Name = "panel2";
@@ -188,15 +189,15 @@
             this.label6.TabIndex = 2;
             this.label6.Text = "Nota:";
             // 
-            // segundoPuesto
+            // Puesto2
             // 
-            this.segundoPuesto.AutoSize = true;
-            this.segundoPuesto.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.segundoPuesto.Location = new System.Drawing.Point(112, 28);
-            this.segundoPuesto.Name = "segundoPuesto";
-            this.segundoPuesto.Size = new System.Drawing.Size(73, 28);
-            this.segundoPuesto.TabIndex = 1;
-            this.segundoPuesto.Text = "Prueba";
+            this.Puesto2.AutoSize = true;
+            this.Puesto2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Puesto2.Location = new System.Drawing.Point(112, 28);
+            this.Puesto2.Name = "Puesto2";
+            this.Puesto2.Size = new System.Drawing.Size(73, 28);
+            this.Puesto2.TabIndex = 1;
+            this.Puesto2.Text = "Prueba";
             // 
             // label8
             // 
@@ -224,7 +225,7 @@
             this.panel3.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel3.Controls.Add(this.nota3);
             this.panel3.Controls.Add(this.label11);
-            this.panel3.Controls.Add(this.tercerPuesto);
+            this.panel3.Controls.Add(this.Puesto3);
             this.panel3.Controls.Add(this.label13);
             this.panel3.Location = new System.Drawing.Point(167, 532);
             this.panel3.Name = "panel3";
@@ -251,15 +252,15 @@
             this.label11.TabIndex = 2;
             this.label11.Text = "Nota:";
             // 
-            // tercerPuesto
+            // Puesto3
             // 
-            this.tercerPuesto.AutoSize = true;
-            this.tercerPuesto.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tercerPuesto.Location = new System.Drawing.Point(112, 28);
-            this.tercerPuesto.Name = "tercerPuesto";
-            this.tercerPuesto.Size = new System.Drawing.Size(73, 28);
-            this.tercerPuesto.TabIndex = 1;
-            this.tercerPuesto.Text = "Prueba";
+            this.Puesto3.AutoSize = true;
+            this.Puesto3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Puesto3.Location = new System.Drawing.Point(112, 28);
+            this.Puesto3.Name = "Puesto3";
+            this.Puesto3.Size = new System.Drawing.Size(73, 28);
+            this.Puesto3.TabIndex = 1;
+            this.Puesto3.Text = "Prueba";
             // 
             // label13
             // 
@@ -287,7 +288,7 @@
             this.panel4.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel4.Controls.Add(this.nota4);
             this.panel4.Controls.Add(this.label16);
-            this.panel4.Controls.Add(this.cuartoPuesto);
+            this.panel4.Controls.Add(this.Puesto4);
             this.panel4.Controls.Add(this.label18);
             this.panel4.Location = new System.Drawing.Point(167, 651);
             this.panel4.Name = "panel4";
@@ -314,15 +315,15 @@
             this.label16.TabIndex = 2;
             this.label16.Text = "Nota:";
             // 
-            // cuartoPuesto
+            // Puesto4
             // 
-            this.cuartoPuesto.AutoSize = true;
-            this.cuartoPuesto.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cuartoPuesto.Location = new System.Drawing.Point(112, 28);
-            this.cuartoPuesto.Name = "cuartoPuesto";
-            this.cuartoPuesto.Size = new System.Drawing.Size(73, 28);
-            this.cuartoPuesto.TabIndex = 1;
-            this.cuartoPuesto.Text = "Prueba";
+            this.Puesto4.AutoSize = true;
+            this.Puesto4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Puesto4.Location = new System.Drawing.Point(112, 28);
+            this.Puesto4.Name = "Puesto4";
+            this.Puesto4.Size = new System.Drawing.Size(73, 28);
+            this.Puesto4.TabIndex = 1;
+            this.Puesto4.Text = "Prueba";
             // 
             // label18
             // 
@@ -350,7 +351,7 @@
             this.panel5.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel5.Controls.Add(this.nota5);
             this.panel5.Controls.Add(this.label21);
-            this.panel5.Controls.Add(this.quintoPuesto);
+            this.panel5.Controls.Add(this.Puesto5);
             this.panel5.Controls.Add(this.label23);
             this.panel5.Location = new System.Drawing.Point(167, 764);
             this.panel5.Name = "panel5";
@@ -377,15 +378,15 @@
             this.label21.TabIndex = 2;
             this.label21.Text = "Nota:";
             // 
-            // quintoPuesto
+            // Puesto5
             // 
-            this.quintoPuesto.AutoSize = true;
-            this.quintoPuesto.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.quintoPuesto.Location = new System.Drawing.Point(112, 28);
-            this.quintoPuesto.Name = "quintoPuesto";
-            this.quintoPuesto.Size = new System.Drawing.Size(73, 28);
-            this.quintoPuesto.TabIndex = 1;
-            this.quintoPuesto.Text = "Prueba";
+            this.Puesto5.AutoSize = true;
+            this.Puesto5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Puesto5.Location = new System.Drawing.Point(112, 28);
+            this.Puesto5.Name = "Puesto5";
+            this.Puesto5.Size = new System.Drawing.Size(73, 28);
+            this.Puesto5.TabIndex = 1;
+            this.Puesto5.Text = "Prueba";
             // 
             // label23
             // 
@@ -409,12 +410,28 @@
             this.botonSalir.TabIndex = 8;
             this.botonSalir.Text = "SALIR";
             this.botonSalir.UseVisualStyleBackColor = false;
+            this.botonSalir.Click += new System.EventHandler(this.botonSalir_Click);
+            // 
+            // button1
+            // 
+            this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.Location = new System.Drawing.Point(982, 866);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 55);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "VOLVER";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Ranking
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1262, 933);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.botonSalir);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label14);
@@ -434,6 +451,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ranking de juegos";
+            this.Load += new System.EventHandler(this.Ranking_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -456,33 +474,34 @@
         private Panel panel1;
         private Label label1;
         private Label label4;
-        private Label primerPuesto;
+        private Label Puesto1;
         private Label label2;
         private Label nota1;
         private Label label3;
         private Panel panel2;
         private Label nota2;
         private Label label6;
-        private Label segundoPuesto;
+        private Label Puesto2;
         private Label label8;
         private Label label9;
         private Panel panel3;
         private Label nota3;
         private Label label11;
-        private Label tercerPuesto;
+        private Label Puesto3;
         private Label label13;
         private Label label14;
         private Panel panel4;
         private Label nota4;
         private Label label16;
-        private Label cuartoPuesto;
+        private Label Puesto4;
         private Label label18;
         private Label label19;
         private Panel panel5;
         private Label nota5;
         private Label label21;
-        private Label quintoPuesto;
+        private Label Puesto5;
         private Label label23;
         private Button botonSalir;
+        private Button button1;
     }
 }

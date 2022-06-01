@@ -17,3 +17,17 @@ C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\
 C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\obj\Debug\net6.0-windows\TrabajoFinal.Properties.Resources.resources
 C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\obj\Debug\net6.0-windows\TrabajoFinal.index.resources
 C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\obj\Debug\net6.0-windows\TrabajoFinal.Login.resources
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\bin\Debug\net6.0-windows\aa\TrabajoFinal.resources.dll
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\obj\Debug\net6.0-windows\TrabajoFinal.EliminarMenu.resources
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\obj\Debug\net6.0-windows\TrabajoFinal.InsertarVideojuego.resources
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\obj\Debug\net6.0-windows\TrabajoFinal.Ranking.resources
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\obj\Debug\net6.0-windows\TrabajoFinal.EliminarMenu.aa.resources
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\obj\Debug\net6.0-windows\aa\TrabajoFinal.resources.dll
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\obj\Debug\net6.0-windows\TrabajoFinal.BuscarVideojuego.resources
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Joaquin\Desktop\Proyectos\trabajoSemanaSanta\TrabajoFinal\TrabajoFinal\obj\Debug\net6.0-windows\TrabajoFinal.csproj.CopyComplete

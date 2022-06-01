@@ -32,7 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.titulo = new System.Windows.Forms.PictureBox();
             this.NombreInput = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.passwordInput = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.botonLogin = new System.Windows.Forms.Button();
@@ -61,13 +61,13 @@
             this.NombreInput.TabIndex = 1;
             this.NombreInput.TextChanged += new System.EventHandler(this.NombreInput_TextChanged);
             // 
-            // textBox2
+            // passwordInput
             // 
-            this.textBox2.Location = new System.Drawing.Point(309, 573);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(581, 27);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.UseSystemPasswordChar = true;
+            this.passwordInput.Location = new System.Drawing.Point(309, 573);
+            this.passwordInput.Name = "passwordInput";
+            this.passwordInput.Size = new System.Drawing.Size(581, 27);
+            this.passwordInput.TabIndex = 2;
+            this.passwordInput.UseSystemPasswordChar = true;
             // 
             // label1
             // 
@@ -77,9 +77,10 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label1.Location = new System.Drawing.Point(552, 354);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 28);
+            this.label1.Size = new System.Drawing.Size(102, 28);
             this.label1.TabIndex = 3;
-            this.label1.Text = "LOGIN:";
+            this.label1.Text = "LOGAN:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -135,7 +136,7 @@
             this.Controls.Add(this.botonLogin);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.passwordInput);
             this.Controls.Add(this.NombreInput);
             this.Controls.Add(this.titulo);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -158,7 +159,7 @@
 
         private PictureBox titulo;
         private TextBox NombreInput;
-        private TextBox textBox2;
+        private TextBox passwordInput;
         private Label label1;
         private Label label2;
         private Button botonLogin;
