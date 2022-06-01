@@ -77,9 +77,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label1.Location = new System.Drawing.Point(552, 354);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 28);
+            this.label1.Size = new System.Drawing.Size(97, 28);
             this.label1.TabIndex = 3;
-            this.label1.Text = "LOGAN:";
+            this.label1.Text = "LOGIN:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2

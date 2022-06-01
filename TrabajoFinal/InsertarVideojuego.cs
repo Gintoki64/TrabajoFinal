@@ -43,7 +43,9 @@ namespace TrabajoFinal
         {
             if (insertTitulo.Text.Length >0 && InsertEmpresa.Text.Length>0 && InsertFecha.Value.Year >0 && InsertPlataforma.Text.Length >0)
             {
-                Conexion.queryF("INSERT INTO[pepe].[video_games]([Titulo],[Empresa],[Anyo],[Genero],[Plataforma],[Multijugador],[Puntuacion])   VALUES('"+insertTitulo.Text+"','"+InsertEmpresa.Text+"','"+InsertFecha.Value.Year.ToString()+"','"+InsertGenero.Text+"','"+InsertPlataforma.Text+"','true',0); ");
+                Conexion.queryF("INSERT INTO[pepe].[video_games]([Titulo],[Empresa],[Anyo],[Genero],[Plataforma],[Multijugador],[Puntuacion])" +
+                    "   VALUES('"+insertTitulo.Text+"','"+InsertEmpresa.Text+"','"+InsertFecha.Value.Year.ToString()+"','"+InsertGenero.Text+"','"
+                    +InsertPlataforma.Text+"','true',0); ");
                 MessageBox.Show("Insertado con exito");
 
             }

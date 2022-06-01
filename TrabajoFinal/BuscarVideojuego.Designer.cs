@@ -237,7 +237,7 @@
             this.info7.BackColor = System.Drawing.Color.Transparent;
             this.info7.Font = new System.Drawing.Font("Segoe UI", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.info7.ForeColor = System.Drawing.Color.Aqua;
-            this.info7.Location = new System.Drawing.Point(257, 671);
+            this.info7.Location = new System.Drawing.Point(365, 671);
             this.info7.Name = "info7";
             this.info7.Size = new System.Drawing.Size(0, 31);
             this.info7.TabIndex = 46;

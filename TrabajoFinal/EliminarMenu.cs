@@ -41,7 +41,8 @@ namespace TrabajoFinal
                 try
                 {
                     string buscador = "";
-                    labelBusqueda.Text = (Conexion.queryF("SELECT TOP(1)[Titulo] FROM[BBDDVideojuegos].[pepe].[video_games] where Titulo = '" + eliminarJuegoText.Text + "'")[0].ToString());
+                    labelBusqueda.Text = (Conexion.queryF("SELECT TOP(1)[Titulo] FROM[BBDDVideojuegos].[pepe].[video_games]" +
+                        " where Titulo = '" + eliminarJuegoText.Text + "'")[0].ToString());
                 }catch (Exception ex)
                 {
                     MessageBox.Show("Ese juego no existe");
